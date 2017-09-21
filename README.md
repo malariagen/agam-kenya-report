@@ -3,9 +3,9 @@ endorsed by anyone. If you have any questions, please contact Alistair
 Miles (alimanfoo@googlemail.com), Nick Harding (njh@well.ox.ac.uk) or
 Janet Midega (tjmidega@yahoo.com).
 
-## Contributor guide
+## Developer guide
 
-### Getting started
+### Setting up the development environment
 
 The following steps describe how to set up a development environment
 for working on the manuscript and the supporting notebooks.
