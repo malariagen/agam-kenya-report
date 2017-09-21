@@ -47,6 +47,49 @@ $ source env.sh
 $ jupyter notebook
 ```
 
+### Git workflow
+
+Before starting any work, create a new branch, e.g.:
+
+```bash
+$ git checkout master
+$ git fetch upstream
+$ git rebase upstream/master
+$ git push origin master
+$ git checkout -b branch-name
+$ git push -u origin branch-name
+```
+
+...replacing "branch-name" with something meaningful like
+"pca-analysis-20170921".
+
+Do some work, add and commit files:
+
+```bash
+$ git add --all
+$ git commit -m "message"
+```
+
+...replacing "message" with a brief description of the changes.
+
+When the work is ready for review, go to github.com and create a pull
+request.
+
+Before the PR is merged, you may need to rebase the branch on the
+upstream master branch, if any changes have occurred. E.g.:
+
+```bash
+$ git checkout branch-name
+$ git fetch upstream
+$ git rebase upstream/master
+$ git push -f origin branch-name
+```
+
+N.B., during the rebase you may need to resolve conflicts.
+
+To make life easier, do not ever commit any changes directly to your
+own master branch, always do any work in a separate branch.
+
 ### Installing Python or TeX Live packages
 
 If there are additional Python packages that you need to install that
