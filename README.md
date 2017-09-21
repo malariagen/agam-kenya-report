@@ -1,5 +1,3 @@
-# agam-kenya-report
-
 This is a work in progress. It has not been reviewed, approved or
 endorsed by anyone. If you have any questions, please contact Alistair
 Miles (alimanfoo@googlemail.com), Nick Harding (njh@well.ox.ac.uk) or
