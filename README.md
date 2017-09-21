@@ -17,10 +17,10 @@ for working on the manuscript and the supporting notebooks.
 **Step 2**: Clone your fork to your local system. E.g.:
 
 ```bash
-$ git clone git@github.com:username/agam-kenya-report.git
-$ cd agam-kenya-report
+$ git clone git@github.com:username/agam-kenya-report-2017.git
+$ cd agam-kenya-report-2017
 $ git submodule update --init --recursive
-$ git remote add upstream git@github.com:malariagen/agam-kenya-report.git
+$ git remote add upstream git@github.com:malariagen/agam-kenya-report-2017.git
 ```
 
 ...replacing 'username' with your GitHub username.
