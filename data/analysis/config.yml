@@ -1,0 +1,59 @@
+callsets:
+  main:
+    description: null
+    format: zarr
+    genotype_dataset: genotype
+    label: Ag1000G Phase 1 AR3 PASS SNPs
+    max_allele: 3
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3.1/variation/main/zarr2/ag1000g.phase1.ar3.pass
+    phased: false
+    samples_path: samples
+genome:
+  accessibility:
+    dataset: is_accessible
+    description: null
+    format: hdf5
+    label: Ag1000G Phase 1 AR3 accessibility map
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/accessibility/accessibility.h5
+  annotation:
+    description: null
+    format: gff3
+    label: AgamP4.2
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/geneset/Anopheles-gambiae-PEST_BASEFEATURES_AgamP4.2.gff3.gz
+  assembly:
+    description: null
+    format: fasta
+    label: AgamP3
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/genome/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.fa
+populations:
+  junju:
+    color: null
+    description: null
+    down_sample: null
+    label: Kilifi-Junju
+    query: country == "Kenya" and region == "Kilifi-Junju"
+    random_seed: null
+  mbogolo:
+    color: null
+    description: null
+    down_sample: null
+    label: Kilifi-Mbogolo
+    query: country == "Kenya" and region == "Kilifi-Mbogolo"
+    random_seed: null
+sample_tables:
+  kdr:
+    description: null
+    format: csv
+    label: null
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/samples/samples.kdr.txt
+    read_kws:
+      index_col: ox_code
+      sep: "\t"
+  main:
+    description: null
+    format: csv
+    label: null
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/samples/samples.meta.txt
+    read_kws:
+      index_col: ox_code
+      sep: "\t"
