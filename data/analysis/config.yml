@@ -33,7 +33,7 @@ populations:
     label: Kilifi-Junju
     marker: o
     query: country == "Kenya" and region == "Kilifi-Junju"
-    random_seed: null
+    random_seed: 0
   mbogolo:
     color: '#2ca02c'
     description: null
@@ -41,12 +41,12 @@ populations:
     label: Kilifi-Mbogolo
     marker: o
     query: country == "Kenya" and region == "Kilifi-Mbogolo"
-    random_seed: null
+    random_seed: 0
 sample_tables:
   kdr:
     description: null
     format: csv
-    label: null
+    label: kdr
     path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/samples/samples.kdr.txt
     read_kws:
       index_col: ox_code
@@ -54,7 +54,7 @@ sample_tables:
   main:
     description: null
     format: csv
-    label: null
+    label: main
     path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/samples/samples.meta.txt
     read_kws:
       index_col: ox_code
