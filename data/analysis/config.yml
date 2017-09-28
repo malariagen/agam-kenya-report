@@ -27,17 +27,19 @@ genome:
     path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/genome/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.fa
 populations:
   junju:
-    color: null
+    color: '#ff7f0e'
     description: null
     down_sample: null
     label: Kilifi-Junju
+    marker: o
     query: country == "Kenya" and region == "Kilifi-Junju"
     random_seed: null
   mbogolo:
-    color: null
+    color: '#2ca02c'
     description: null
     down_sample: null
     label: Kilifi-Mbogolo
+    marker: o
     query: country == "Kenya" and region == "Kilifi-Mbogolo"
     random_seed: null
 sample_tables:
