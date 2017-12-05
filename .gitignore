@@ -1,2 +1,5 @@
 deps
-
+ngs.sanger.ac.uk
+.ipynb_checkpoints
+.idea
+data/analysis/cache
