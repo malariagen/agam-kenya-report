@@ -8,6 +8,22 @@ callsets:
     path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3.1/variation/main/zarr2/ag1000g.phase1.ar3.pass
     phased: false
     samples_path: samples
+  main_roh:
+    description: null
+    format: hdf5
+    genotype_dataset: null
+    label: Ag1000G Phase 1 AR3 Run of Homozygosity (ROH) calls 
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3.1/roh/main/runs_of_homozygosity.h5
+    phased: false
+    samples_path: samples
+  cross_roh:
+    description: null
+    format: hdf5
+    genotype_dataset: null
+    label: Ag1000G Phase 1 AR3 Run of Homozygosity (ROH) calls from crosses
+    path: ../../ngs.sanger.ac.uk/production/ag1000g/phase1/AR3.1/roh/crosses/runs_of_homozygosity.h5
+    phased: false
+    samples_path: samples
 genome:
   accessibility:
     dataset: is_accessible
